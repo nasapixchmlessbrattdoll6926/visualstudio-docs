@@ -1,23 +1,64 @@
-name: "generate what's new article"
+8 o+7 ot+685p+97t98p+ r*6o+*/r6+8 oe5+7*/ 9-e5*/7 +e587o e87 o+9/6e*7/o +9w58765655 +65i+65+65sr+t6u5+6 8+a5y 5-79qn3097= nw4
+5
+468n]w4[8\n4w[\]7 \]\] \ [\ [     p\    p\[    p[     [     [ p    9-83             *3/4      +++924+     24+8     +6     2 +2+24/+9248+6    5 4+    .     .    4+ 8    249     +2 6    +246 6 4+6    624+62     + 6    45+9     +9 se+65h +r6j+s6et8+9a +9q58+y5\]7w\ \[\]  w ]] rtnpudr0-e- wi09u8976r7w5f87y oihskj hgiyushkjgh aoisu galtiu u    poi up     upi    ri u    rip     ip      pi        '
+pop    roip798same: "generate what's new article"
 
 on:
-  schedule:
+  schedule:dr 69u80se96 iupio7i[o /*3/8
     - cron: "0 2 1 * *" # The first of every month at 2 AM
-  workflow_dispatch:
-    inputs:
-      reason:
-        description: "The reason for running the workflow"
+  workflow_dispatch:t r8h79587 y987540 w357w=46=56-=-60u -d0tr9rh potku;+
+r8o+ 6    inputs:
+      reason:+    
+        description: "The reason for running the workflow"5+    
         required: true
         default: "Manual run"
 
-jobs:
-  create-what-is-new:
+jobs: e598y07u0 5+7o5-*8o+ 69p+* 5-*/u]p6 r]=-ry=i-05p]  create-what-is-new:
     runs-on: ubuntu-latest
     permissions:
       contents: write
       pull-requests: write
 
-    steps:
+    steps:099tr98y78w 398y094i7	 87e678	e  	[po3p5o	3o]	po4[]	o][o	]4o][	2 [o2[to	[[p243ot[p	oitp9 	809apog[as gp o] ]	 g]po[ ]	] 	o 	]4o3 ]op	po]t]p3o4[	4][24 ][o	2]p5 o	p2t0ser8g0-q 6w45 y+6u+n w54+ w946+ u9 q+w356u  +46u* 5b*+ 9y4+8u+57652  + .+49 8u+w945u+98+uw4 +8m4+89+i9\8+8\+9]i\+i*0\+0[+6\+u909+-9m96=u\w 0y8er97t87s6765s6567576s87675			6	678	6 7		iy lk
+
+
+  a
+  36
+  w5'8
+  e469
+  '56
+  '
+  6'i
+  []r67]e[5 
+  7][e 
+  ]468[8\]w4[\] 8[57[u-09 s09re895836 upow4 ;pw
+  4 
+  e6;8
+  4w[8]4 e8] [5e]7
+   k[p][ep45-y09 ty8 sp[ 
+   ry][rpth];4
+   6' 7
+   4' 6;n
+   lr
+   fg';jl
+   flhk
+   ;gl
+
+	d'r[ tut[]46]8[pe
+ 46'][8o[d 0r69u-0n4] 68
+ e579[] pu -0e95y80495uy ijhrosyf7d87a6 678re w]
+ 456; 8
+ '78;o
+ '5m;9
+ '9;p
+ ';7p9
+ 'm;9
+  5yi 8p+70+6[+-6]+-\8+9=\8+\+\8+6=\8+=\*=\/+5\+\=.\.+8=5\+8605]+0+t6,6.57 +665u+ 6se5+ y8 aw\[q\]3[6\]4p -090-r8t9878 yq8w rut;4wlk5 nj; riou87t675z6zc5467t [wa 6oe\q p  [	 [	 [	 [3[\pr	][1035 0	4=-5 2=	- 6	24 o] ov3] 	o3]vpo24	[ op p	 j2kj	2[ [pd pd o	]23po5]	42o	[4b-0s9-0ho ][q5yoa- 9 hopw54]p7w][ 54uo]wpo-9ser898u q3[6]4[w 
+  7'4
+  8w';48
+  'm;5
+  ';i
+  '; 8[drpt][ sp45[]7po
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
 
       - name: "Print manual run reason"
@@ -35,12 +76,13 @@ jobs:
         env:
           GitHubKey: ${{ secrets.GITHUB_TOKEN }}
           OspoKey: ${{ secrets.OSPO_KEY }}
-        with:
+        with:dry u09-09i -56-0 9 -4698w948509i57uowerout9s878t6s87r6t8sw76t87ey0e4[67p]e4p68np57
+        ip[r5]-u57ie4-656-0=    -0     -=    305-    30 50=    9 0    7539 7q=-3 5\    \    3\ ][5\]3-=- w3yp 0=3=320-4
           owner: MicrosoftDocs
           repo: visualstudio-docs-pr
           savefile: './docs/ide/whats-new-visual-studio-docs.md'
 
-      - name: create-pull-request
+      - name: create-pull-request 6409u03w469    0 9809    80    808    30    35-    5-0-4= -0    =5- 0    =39 n-089 68736876 uoiwuroeiu pow3jyspoi5ei          3r u    3ru p    3ou po    3u         ][p \    3[p[    3p[    p3] [    p3]    [3p -=0rys=w]s][yp ]    ]    \p\]    pt]    p][p    ]t-0=-    350=    + 3*5/    +3
         uses: peter-evans/create-pull-request@b1ddad2c994a25fbc81a28b3ec0e368bb2021c50
         with:
           branch: create-whatsnew-pull-request/patch
